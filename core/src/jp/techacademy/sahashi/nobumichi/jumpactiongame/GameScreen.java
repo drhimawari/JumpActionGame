@@ -174,7 +174,7 @@ public class GameScreen extends ScreenAdapter {
         Texture ufoTexture = new Texture("ufo.png");
         Texture enemyTexture = new Texture("enemy.png");
 
-        // StepとStarをゴールの高さまで配置していく
+        // Step、EnemyとStarをゴールの高さまで配置していく
         float y = 0;
 
         float maxJumpHeight = Player.PLAYER_JUMP_VELOCITY * Player.PLAYER_JUMP_VELOCITY / (2 * -GRAVITY);
